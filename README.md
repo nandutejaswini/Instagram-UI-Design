@@ -81,6 +81,6 @@ Make sure necessary permissions are set in AndroidManifest.xml (Android) and Inf
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ### Acknowledgments
-React Native
-OneSignal
-React Native Vector Icons
+[React Native](https://reactnative.dev/)
+[OneSignal](https://onesignal.com/)
+[React Native Vector Icons](https://github.com/oblador/react-native-vector-icons)
