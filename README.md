@@ -22,14 +22,19 @@ A React Native project that integrates OneSignal for push notifications and mimi
 3. Install and link the required packages:
    
      npm install react-native-vector-icons
+   
      npx react-native link react-native-vector-icons
+   
      npm install react-native-onesignal
-4. Configure OneSignal:
+   
+5. Configure OneSignal:
 
 Replace "YOUR_ONESIGNAL_APP_ID" in the code with your actual OneSignal App ID.
+
 Follow the OneSignal setup instructions for both iOS and Android.
 
 ### Running the Application
+
 #### For Android
 > Enable Developer Options and USB Debugging on your Android device.
 
@@ -38,9 +43,7 @@ Follow the OneSignal setup instructions for both iOS and Android.
 > Verify the connection:
 
 > Run the application:
-
-
-npx react-native run-android
+    npx react-native run-android
 
 #### For iOS
 
@@ -60,13 +63,18 @@ npx react-native run-ios --device
 The application should display:
 
 A top navigation bar with a camera icon, the text "Instagram", and a send icon.
+
 A user post section with a profile picture, username, options icon, post image, and action icons (like, comment, share).
+
 A bottom navigation bar with icons for home, search, add post, favorites, and profile.
 
 ### Troubleshooting
 Ensure all dependencies are installed correctly.
+
 Check for console errors in your terminal or IDE.
+
 Verify device connectivity and recognition.
+
 Make sure necessary permissions are set in AndroidManifest.xml (Android) and Info.plist (iOS).
 
 ### License
