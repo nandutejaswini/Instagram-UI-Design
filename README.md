@@ -55,9 +55,7 @@ Open the Xcode project located in ios/MyNewProject.xcworkspace.
 
 Ensure that your development team is selected in the Signing & Capabilities tab.
 
-Run the application:
-
-npx react-native run-ios --device
+Run the application: npx react-native run-ios --device
 
 ### Expected Output
 The application should display:
